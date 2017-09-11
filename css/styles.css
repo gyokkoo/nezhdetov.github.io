@@ -1,10 +1,5 @@
-/*!
- * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, 'Lato', 'Helvetica Neue', Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
@@ -50,11 +45,11 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #161f29;
 }
 hr.star-light:after {
   background-color: #18BC9C;
-  color: white;
+  color: #161f29;
 }
 hr.star-primary {
   border-color: #2C3E50;
@@ -74,6 +69,7 @@ header {
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
+  color: #233140;
 }
 header img {
   display: block;
@@ -82,13 +78,12 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
+  font-size: 1.35em;
+  font-weight: 500;
 }
 @media (min-width: 768px) {
   header .container {
@@ -96,10 +91,10 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 2.75em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 2em;
   }
 }
 .navbar-custom {
